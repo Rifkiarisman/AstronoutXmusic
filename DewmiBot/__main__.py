@@ -53,6 +53,7 @@ from DewmiBot import (
     pbot,
     telethn,
     updater,
+    BOT_USERNAME,
 )
 
 from DewmiBot.modules import ALL_MODULES
@@ -68,10 +69,10 @@ Hey there!👋  My name is Rose ✨
 
 I can manage your  group with lots of useful features, feel free to add me to your group.
 
-✨ Pọwẹrẹɗ Ɓy : @SL_bot_zone
-✮───────────────✮
-🌟 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 : @supunmabot
-✮───────────────✮
+✨ Powered by : @sokapgblg
+🔥───────────────🔥
+🌟 Patner of : @iceplayer_bot
+🔥───────────────🔥
 """
 
 HELP_STRINGS = f"""
@@ -92,12 +93,12 @@ STICKERS = "CAACAgUAAx0CS6YhoQAC02VhQUW7iB4ci3lcSXHtLVOjFzZlDQACUQMAAvPvEVY76k2Q
 BUTTONS = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="http://t.me/szrosebot?startgroup=true"),
+            text="➕️ **ADD TO YOUR GROUP** ➕️", url="http://t.me/{BOT_USERNAME}?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="📢 Bot updates ", url=f"https://t.me/sl_bot_zone"),
+        InlineKeyboardButton(text="📢 Bot updates ", url=f"https://t.me/{UPDATE_CHANNEL}"),
         InlineKeyboardButton(
-            text="Repo 📦", url=f"https://github.com/youtubeslgeekshow"
+            text="Repo 📦", url=f"https://github.com/Rifkiarisman/AstronoutXmusic"
         ),
     ],
     [
