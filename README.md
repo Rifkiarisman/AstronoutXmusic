@@ -22,7 +22,7 @@
    
     
 ## Repo Stats
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=youtubeslgeekshow&repo=sz-rose-bot&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=Rifkiarisman&repo=Astronout-X-musict&theme=dark)
 
 
   
@@ -51,7 +51,8 @@
 ##  deploy to Heroku 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Rifkiarisman/AstronoutXmusic)  
-     
+
+
 ## VPS Deployment
 ```
 - sudo apt update && ugrade -y
