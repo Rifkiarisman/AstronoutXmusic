@@ -1,5 +1,4 @@
-{
-      "name": "SZROSEBOT",
+name": "SZROSEBOT",
       "description": "Hey there 👋 I'm szrosebot .A Powerful, Smart And Simple Group Manager with some extra features..",
 	  "logo": "https://telegra.ph/file/9dd16a0599147d664f2a8.jpg",
       "keywords": [
@@ -7,7 +6,15 @@
          "Groupmanager",
          "sz-rose-bot"
       ],   
-   "repository": "https://github.com/youtubeslgeekshow/sz-rose-bot",
+   "repository": "https://github.com/Rifkiarisman/AstronoutXmusic",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
    "buildpacks": [
     {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
@@ -15,7 +22,7 @@
     {
       "url": "heroku/python"
     }     
-  ],      
+  ],       
    "env": {
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
